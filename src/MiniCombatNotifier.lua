@@ -10,33 +10,31 @@ local dbDefaults = {
 	RelativeTo = "UIParent",
 	RelativePoint = "CENTER",
 	X = 0,
-	Y = 0,
+	Y = 100,
 
 	FontPath = "Fonts\\FRIZQT__.TTF",
 	FontSize = 16,
 	FontFlags = "OUTLINE",
 
-	EnteringCombatText = "<Entering Combat>",
-	LeavingCombatText = "<Leaving Combat>",
+	EnteringCombatText = "+Combat",
+	LeavingCombatText = "-Combat",
 
-	-- light red
 	EnteringCombatTextColor = {
 		R = 1,
-		G = 0.1,
-		B = 0.1,
+		G = 1,
+		B = 1,
 		A = 1,
 	},
 
-	-- green
 	LeavingCombatTextColor = {
-		R = 0,
+		R = 1,
 		G = 1,
-		B = 0,
+		B = 1,
 		A = 1,
 	},
 
 	FadeInDuration = 0.5,
-	HoldDuration = 0.5,
+	HoldDuration = 1,
 	FadeOutDuration = 0.5,
 }
 
